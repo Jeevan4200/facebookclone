@@ -1,0 +1,10 @@
+display flex should be used for containers
+display inline should be used for the elements
+Inline: Just as the name suggests, inline displays an element in the same line as the rest. Specifying any height and width properties will be of no use, as it follows the height and width of the line, of which it is a part.
+Block: Displays an element as a block element. It starts on a new line and takes up take up as much horizontal space as it can. Block-level elements do not appear in the same line but break the existing line and appear in the next line.
+Flex: Flex displays an element as a flexible structure. To use a flex display, a flex-level container has to be created. Flex level container is nothing, but an element with the display property set to flex. The flex container itself is displayed in a new line, just like the block element. The flex container can contain other elements in it and thus, the flex container is the parent element and the elements that are part of it are the child elements. Display flex property helps us to align and distribute space among items in a container, even when their size is unknown and/or dynamic.
+Inline-Block: Displays an element as an inline-level block container. An element set to inline-block is very similar to inline in that it will be set in line with the natural flow of text, i.e; unlike display: block, display:inline-block does not add a line-break after the element. So, the element can sit next to other elements. The element itself is formatted as an inline element, but it allows you to set a width and height on the element, which is not possible in the display: inline.  
+
+flex-basis=it is used to set the initial length of a property. flex-basis:25% it takes the 25 percent of the place of the initial length
+
+to set background url in a div or adjust a div **use flex-basis,and background-position,background-size.
